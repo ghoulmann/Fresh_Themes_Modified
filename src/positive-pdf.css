@@ -35,11 +35,13 @@ a:hover {
 h1 {
   text-transform: uppercase;
   font-size:
+  color: black;
 }
 
 h2 {
   text-transform: uppercase;
-  color: #898989;
+  /*color: #898989;*/
+  color: black;
   font-size: 2em;
   position: relative;
   font-weight: 400;
@@ -93,6 +95,7 @@ section > div {
 
 section > div p {
   clear: both;
+  color: black;
 }
 
 section > header {
@@ -117,7 +120,7 @@ p, li {
 
 .tenure {
   float: right;
-  color: #6F6F6F;
+  color: black;
   background-color: #F5F5F5;
   border-radius: 6px;
   padding: 4px 6px;
@@ -195,7 +198,7 @@ header > span.fa {
 }
 
 #summary {
-  color: #717171;
+  color: black;
   font-size: 1.25em;
   margin-top: 6em;
 }
