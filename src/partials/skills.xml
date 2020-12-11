@@ -34,7 +34,7 @@
               <w:caps/>
               <w:color w:val="989898"/>
             </w:rPr>
-            <w:t>{{ name }}</w:t>
+            <w:t>{{ name }}   </w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -49,7 +49,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>{{#each skills }}{{ this }}{{#unless @last}}  {{/unless}}{{/each}}</w:t>
+            <w:t>{{#each skills }} {{ this }} {{#unless @last}} {{/unless}}{{/each}}</w:t>
           </w:r>
         </w:p>
       </w:tc>
