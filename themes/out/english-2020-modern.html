@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Richard Goldman</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-size: 15px;
+              color: #333;
+              line-height: 1.42857143;
+              background-color: #F0F0F0;
+              margin: 0;
+              padding: 0;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+            }
+            
+            /* Typical page borders are awkward when rendered to PDF. */
+            body.pdf {
+              background-color: #FFFFFF;
+            }
+            
+            /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+            the PDF case, <main> for the HTML case, and style both via an ID. */
+            #main {
+              background-color: #FFF;
+              margin: 10px;
+              padding: 10px;
+              border: 1px solid #E6E6E6;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            #container > header {
+              padding-top: 6em;
+              padding-bottom: 1em;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+            }
+            
+            #main > #container > section {
+              margin-left: 150px;
+              position: relative;
+              display: block;
+            }
+            
+            section > div {
+              margin-bottom: 60px;
+            }
+            
+            span.fa
+            {
+              font-size: 56px;
+              position: absolute;
+              top: 37px;
+              transform: translateY(-50%);
+              left: -100px;
+              color: #1a4367;
+            }
+            
+            hr {
+              margin-top: 20px;
+              margin-bottom: 20px;
+              border: 0;
+              border-top: 1px solid #EEE;
+            }
+            
+            .tenure, .keywords {
+              font-size: 75%;
+            }
+            
+            h1 {
+              margin: 0;
+              font-size: 46px;
+              display: inline-block;
+            }
+            
+            h2 {
+              font-size: 30px;
+              color: #4376a2;
+              text-transform: uppercase;
+              font-weight: normal;
+              padding-top: 20px;
+              margin-bottom: 60px;
+            }
+            
+            h3 {
+              margin-bottom: 0;
+              font-size: 18px;
+            }
+            
+            a, a:visited {
+              color: #428BCA;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            #summary {
+              font-size: 150%;
+              margin-left: 0;
+              padding: 20px 0;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.25em;
+            }
+            
+            #contact {
+              float: right;
+            }
+            
+            #summary > header > .fa-info {
+              font-size: 70px;
+              letter-spacing: 5px;
+              text-transform: uppercase;
+              font-weight: normal;
+              top: 50%;
+              left: -85px;
+              transform: translateY(-50%);
+            }
+            
+            #summary h2 {
+              display: none;
+            }
+            
+            
+            .label-keyword {
+              display: inline-block;
+              background: #e8f4ff;
+              color: black;
+              font-size: 0.9em;
+              padding: 5px;
+              border: 1px solid #357ebd;
+              border-radius: 5px;
+              margin-top: 2px;
+              font-weight: bold;
+              text-align: center;
+            }
+            
+            .notes {
+              font-size: 10px;
+              display: block;
+              font-weight: normal;
+              text-transform: uppercase;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 10px;
+                border-width: 1px 0 0 0;
+            }
+            .card {
+                background: #FFF;
+                border-radius: 3px;
+                padding: 10px;
+            }
+            
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 10px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 10px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            .skill-info > strong {
+              font-weight: 400;
+              font-size: 24px;
+              color: #1d1d1d;
+              line-height: 24px;
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .card-skills {
+              position: relative;
+            }
+            
+            .space-top {
+                margin-top: 5px;
+            }
+            
+            #container {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            #elevator-pitch {
+              text-align: center;
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                     <h1>Richard Goldman</h1>
+                    <div id="contact">
+                        <div class="email"><a href="mailto:rikgoldman@gmail.com">rikgoldman@gmail.com</a>
+                        </div>
+                        <div class="phone">(202) 431-8545</div>
+                    </div>
+                </header>
+                <hr>
+                <section id="summary">
+                    <header> <span class="fa fa-lg fa-info"></span> 
+                         <h2>info</h2>
+
+                    </header>Charismatic and reflective education professional with experience as an
+                    innovative classroom teacher and school technology administrator. 21 years
+                    of outstanding experience as an instructional, assistive, and learning
+                    technology leader and innovator. Successes include: nationwide technology
+                    instruction for computing professionals; designing and coordinating professional
+                    development opportunities for classroom teachers and professors. Recognized
+                    as a community leader in the innovative infusion of technology into teaching
+                    and learning. 20 years of instructional experience.</section>
+                <hr>
+                <section id="employment">
+                    <header> <span class="fa fa-lg fa-building"></span> 
+                         <h2>employment</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>English Teacher</em>,
+
+    <a href="http://chelseaschool.edu">Chelsea School (Hyattsville, MD)</a>
+
+    </h3> <span class="tenure">2006-08 — 2013-06</span>| <span class="keywords">High School |  English Teacher |  Authentic Assessment |  Academic Research |  Special Educator |  Student Advisor </span>
+                        <p>
+                            <p>Developed and taught high school literature and composition to secondary
+                                students with language-based learning differences until I accepted an opportunity
+                                serve as the Director of Technology.</p>
+                        </p>
+                        <ul>
+                            <li>Taught British Literature (11th) | Writing Tutorial | Reading (Fluency
+                                and Comprehension) | English/Language Arts (6th through 8th)</li>
+                            <li>Served as advisor to Photography Club, Computing Club, Latin Club, Postmodern
+                                Poetry Club</li>
+                            <li>Increased pass rate on state mandated reading and writing assessment by
+                                30%</li>
+                            <li>Designed, proposed, and implemented an innovative open-source writing
+                                lab to increase range of assistive and learning technologies and decrease
+                                total cost of ownership compared to other writing labs pm campus</li>
+                            <li>Designed and taught professional development workshops on educational
+                                and assistive technologies</li>
+                            <li>Led faculty reading groups on critical pedagogy and culturally responsive
+                                practices in the classroom</li>
+                            <li>Delivered research on addressing culturally biased language in students
+                                with language-based learning differences, the use of personal mobile devices
+                                and apps as instructional and assistive technologies, add incorporating
+                                humanities into STEM curriculum to conferences</li>
+                            <li>Developed, managed, tracked, and reported progress on IEP goals and objectives</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Special Education Teacher</em>,
+
+    <a href="http://www.mckinleytech.org/">McKinley Technology High School (DCPS)</a>
+
+    </h3> <span class="tenure">2005-08 — 2006-06</span>| <span class="keywords">Special Educator |  Mathematics |  Collaboration &amp; Co-Planning </span>
+                        <p>
+                            <p>Special education teacher in integrated and self-contained environments
+                                in a STEM magnet school.</p>
+                        </p>
+                        <ul>
+                            <li>Served as English and Mathematics Co-Teacher</li>
+                            <li>Reformed literacy and mathematics intervention and remediation strategies</li>
+                            <li>Developed, managed, tracked, and reported progress on IEP goals and objectives</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>High School English Teacher</em>,
+
+    <a href="https://www.vanguardschool.org/">Vanguard School of Lake Wales (Lake Wales, FL)</a>
+
+    </h3> <span class="tenure">2003-08 — 2005-06</span>| <span class="keywords">Editor Special Educator Mentor Service </span>
+                        <p>
+                            <p>Developed and taught high school literature and composition courses.</p>
+                        </p>
+                        <ul>
+                            <li>Taught English 11 (British Literature), English 10 (World Literature),
+                                and English 9 (Introduction to Literature)</li>
+                            <li>Editor, LD Digest (Journal)</li>
+                            <li>Student mentor</li>
+                            <li>Advisor to National Honor Society, Philosophy Club, Latin Club</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Visiting Assistant Professor of English</em>,
+
+    <a href="https://www.bethanywv.edu/">Bethany College (Bethany WV)</a>
+
+    </h3> <span class="tenure">2001-08 — 2003-06</span>| <span class="keywords">Literature Composition Research Argumentation Individualization </span>
+                        <p>
+                            <p>Developed and taught undergraudate courses in literature, composition,
+                                and rhetoric while working closesly with disability services to provide
+                                indivualized accommodations for eligible students.</p>
+                        </p>
+                        <ul>
+                            <li>Taught History of the British Novel, Science Fiction and Fantasy Literature,
+                                Composition and Rhetoric, Research and Argumentation, and The Developing
+                                British Novel</li>
+                            <li>Guided students to develop and publish a ad-funded periodical with literary,
+                                cultural, and critical content</li>
+                        </ul>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3>
+
+West Virginia University
+
+</h3>
+<span class="tenure">1996-06 — 2004-06</span>| <span class="keywords">MA Ph.D(ABD) | English </span>
+                        <p>Focus on Victorian Literature | Modern American Novel | Electronic Literature
+                            | Digital Humanities | Critical Theory</p>
+                    </div>
+                    <div>
+                        
+<h3>
+
+Bethany College
+
+</h3>
+<span class="tenure">1990-08 — 1994-06</span>| <span class="keywords">BA | English </span>
+                        <p>Magna Cum Laude with a BA in English and minors in philosophy and German;
+                            studied pedagogy in Heidelberg in junior year</p>
+                    </div>
+                </section>
+                <hr>
+                <section id="interests">
+                    <header> <span class="fa fa-lg fa-bicycle"></span> 
+                         <h2>interests</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>New Media Studies</em></h3>
+ <span class="tenure">Current</span>
+
+                    </div>
+                    <div>
+                         <h3><em>Equity, and Social and Economic Justice</em></h3>
+ <span class="tenure">Current</span>
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>

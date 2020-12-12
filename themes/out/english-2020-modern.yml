@@ -1,0 +1,140 @@
+name: 'Richard Goldman'
+info:
+  label: 'English Teacher'
+  image: ""
+  brief: 'Charismatic and reflective education professional with experience as an innovative classroom teacher and school technology administrator. 21 years of outstanding experience as an instructional, assistive, and learning technology leader and innovator. Successes include: nationwide technology instruction for computing professionals; designing and coordinating professional development opportunities for classroom teachers and professors. Recognized as a community leader in the innovative infusion of technology into teaching and learning. 20 years of instructional experience.'
+contact:
+  email: rikgoldman@gmail.com
+  phone: '(202) 431-8545'
+meta:
+  format: FRESH@^1.0.0-beta
+  modified: '2019-03-06T10:47:01.651Z'
+location:
+  city: Washington
+  region: 'District of Columbia'
+  country: US
+  code: 'DC 20017'
+  address: '108 Michigan Ave NE E12'
+employment:
+  history:
+    -
+      position: 'English Teacher'
+      employer: 'Chelsea School (Hyattsville, MD)'
+      summary: 'Developed and taught high school literature and composition to secondary students with language-based learning differences until I accepted an opportunity serve as the Director of Technology.'
+      start: '2006-08-01'
+      end: '2013-06-15'
+      url: 'http://chelseaschool.edu'
+      keywords:
+        - 'High School | '
+        - 'English Teacher | '
+        - 'Authentic Assessment | '
+        - 'Academic Research | '
+        - 'Special Educator | '
+        - 'Student Advisor'
+      highlights:
+        - 'Taught British Literature (11th) | Writing Tutorial | Reading (Fluency and Comprehension) | English/Language Arts (6th through 8th)'
+        - 'Served as advisor to Photography Club, Computing Club, Latin Club, Postmodern Poetry Club'
+        - 'Increased pass rate on state mandated reading and writing assessment by 30%'
+        - 'Designed, proposed, and implemented an innovative open-source writing lab to increase range of assistive and learning technologies and decrease total cost of ownership compared to other writing labs pm campus'
+        - 'Designed and taught professional development workshops on educational and assistive technologies'
+        - 'Led faculty reading groups on critical pedagogy and culturally responsive practices in the classroom'
+        - 'Delivered research on addressing culturally biased language in students with language-based learning differences, the use of personal mobile devices and apps as instructional and assistive technologies, add incorporating humanities into STEM curriculum to conferences'
+        - 'Developed, managed, tracked, and reported progress on IEP goals and objectives'
+    -
+      position: 'Special Education Teacher'
+      employer: 'McKinley Technology High School (DCPS)'
+      summary: 'Special education teacher in integrated and self-contained environments in a STEM magnet school.'
+      start: '2005-08-01'
+      end: '2006-06-15'
+      url: 'http://www.mckinleytech.org/'
+      keywords:
+        - 'Special Educator | '
+        - 'Mathematics | '
+        - 'Collaboration & Co-Planning'
+      highlights:
+        - 'Served as English and Mathematics Co-Teacher'
+        - 'Reformed literacy and mathematics intervention and remediation strategies'
+        - 'Developed, managed, tracked, and reported progress on IEP goals and objectives'
+    -
+      position: 'High School English Teacher'
+      employer: 'Vanguard School of Lake Wales (Lake Wales, FL)'
+      summary: 'Developed and taught high school literature and composition courses.'
+      start: '2003-08-01'
+      end: '2005-06-15'
+      url: 'https://www.vanguardschool.org/'
+      keywords:
+        - Editor
+        - 'Special Educator'
+        - Mentor
+        - Service
+      highlights:
+        - 'Taught English 11 (British Literature), English 10 (World Literature), and English 9 (Introduction to Literature)'
+        - 'Editor, LD Digest (Journal)'
+        - 'Student mentor'
+        - 'Advisor to National Honor Society, Philosophy Club, Latin Club'
+    -
+      position: 'Visiting Assistant Professor of English'
+      employer: 'Bethany College (Bethany WV)'
+      summary: 'Developed and taught undergraudate courses in literature, composition, and rhetoric while working closesly with disability services to provide indivualized accommodations for eligible students.'
+      start: '2001-08-01'
+      end: '2003-06-15'
+      url: 'https://www.bethanywv.edu/'
+      keywords:
+        - Literature
+        - Composition
+        - Research
+        - Argumentation
+        - Individualization
+      highlights:
+        - 'Taught History of the British Novel, Science Fiction and Fantasy Literature, Composition and Rhetoric, Research and Argumentation, and The Developing British Novel'
+        - 'Guided students to develop and publish a ad-funded periodical with literary, cultural, and critical content'
+education:
+  level: Graduate
+  history:
+    -
+      institution: 'West Virginia University'
+      start: '1996-06-01'
+      end: '2004-06-30'
+      grade: '3.8'
+      curriculum:
+        - MA
+        - 'Ph.D(ABD) | English'
+      summary: 'Focus on Victorian Literature | Modern American Novel | Electronic Literature | Digital Humanities | Critical Theory'
+      area: 'Literature (Digital Media)'
+      studyType: 'MA & Ph.D (abd)'
+    -
+      institution: 'Bethany College'
+      start: '1990-08-15'
+      end: '1994-06-30'
+      grade: '3.8'
+      curriculum:
+        - 'BA | English'
+      summary: 'Magna Cum Laude with a BA in English and minors in philosophy and German; studied pedagogy in Heidelberg in junior year'
+      area: 'Literature, philosophy, German'
+      studyType: BA
+interests:
+  -
+    name: 'New Media Studies'
+    keywords:
+      - 'Generative Art'
+      - 'Critical Code Studies'
+      - 'Electronic Literature'
+      - 'Cybernetics, Culture, and Society'
+      - 'STEM and the Humanities'
+  -
+    name: 'Equity, and Social and Economic Justice'
+    keywords:
+      - 'Critical Pedagogy'
+      - 'Emancipatory Education'
+      - 'Global Perspectives'
+      - 'Culturally Responsive Practices'
+languages:
+  -
+    language: English
+    fluency: 'Native speaker'
+  -
+    language: German
+    fluency: Conversational
+  -
+    language: 'Old Norse'
+    fluency: 'Reading (with reference resources'

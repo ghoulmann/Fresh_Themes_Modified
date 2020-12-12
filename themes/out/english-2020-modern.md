@@ -1,0 +1,76 @@
+Richard Goldman
+============
+Email: rikgoldman@gmail.com
+Tel: (202) 431-8545
+
+
+Charismatic and reflective education professional with experience as an innovative classroom teacher and school technology administrator. 21 years of outstanding experience as an instructional, assistive, and learning technology leader and innovator. Successes include: nationwide technology instruction for computing professionals; designing and coordinating professional development opportunities for classroom teachers and professors. Recognized as a community leader in the innovative infusion of technology into teaching and learning. 20 years of instructional experience.
+
+
+## EMPLOYMENT
+
+### *English Teacher*, [Chelsea School (Hyattsville, MD)](http://chelseaschool.edu) (2006-08 — 2013-06)
+
+Developed and taught high school literature and composition to secondary students with language-based learning differences until I accepted an opportunity serve as the Director of Technology.
+  - Taught British Literature (11th) | Writing Tutorial | Reading (Fluency and Comprehension) | English/Language Arts (6th through 8th)
+  - Served as advisor to Photography Club, Computing Club, Latin Club, Postmodern Poetry Club
+  - Increased pass rate on state mandated reading and writing assessment by 30%
+  - Designed, proposed, and implemented an innovative open-source writing lab to increase range of assistive and learning technologies and decrease total cost of ownership compared to other writing labs pm campus
+  - Designed and taught professional development workshops on educational and assistive technologies
+  - Led faculty reading groups on critical pedagogy and culturally responsive practices in the classroom
+  - Delivered research on addressing culturally biased language in students with language-based learning differences, the use of personal mobile devices and apps as instructional and assistive technologies, add incorporating humanities into STEM curriculum to conferences
+  - Developed, managed, tracked, and reported progress on IEP goals and objectives
+
+### *Special Education Teacher*, [McKinley Technology High School (DCPS)](http://www.mckinleytech.org/) (2005-08 — 2006-06)
+
+Special education teacher in integrated and self-contained environments in a STEM magnet school.
+  - Served as English and Mathematics Co-Teacher
+  - Reformed literacy and mathematics intervention and remediation strategies
+  - Developed, managed, tracked, and reported progress on IEP goals and objectives
+
+### *High School English Teacher*, [Vanguard School of Lake Wales (Lake Wales, FL)](https://www.vanguardschool.org/) (2003-08 — 2005-06)
+
+Developed and taught high school literature and composition courses.
+  - Taught English 11 (British Literature), English 10 (World Literature), and English 9 (Introduction to Literature)
+  - Editor, LD Digest (Journal)
+  - Student mentor
+  - Advisor to National Honor Society, Philosophy Club, Latin Club
+
+### *Visiting Assistant Professor of English*, [Bethany College (Bethany WV)](https://www.bethanywv.edu/) (2001-08 — 2003-06)
+
+Developed and taught undergraudate courses in literature, composition, and rhetoric while working closesly with disability services to provide indivualized accommodations for eligible students.
+  - Taught History of the British Novel, Science Fiction and Fantasy Literature, Composition and Rhetoric, Research and Argumentation, and The Developing British Novel
+  - Guided students to develop and publish a ad-funded periodical with literary, cultural, and critical content
+
+
+
+
+## EDUCATION
+
+### West Virginia University (1996-06 — 2004-06)
+
+Focus on Victorian Literature | Modern American Novel | Electronic Literature | Digital Humanities | Critical Theory
+
+
+### Bethany College (1990-08 — 1994-06)
+
+Magna Cum Laude with a BA in English and minors in philosophy and German; studied pedagogy in Heidelberg in junior year
+
+
+
+
+
+
+
+
+
+
+
+
+## INTERESTS
+
+- NEW MEDIA STUDIES: Generative Art Critical Code Studies Electronic Literature Cybernetics, Culture, and Society STEM and the Humanities 
+
+- EQUITY, AND SOCIAL AND ECONOMIC JUSTICE: Critical Pedagogy Emancipatory Education Global Perspectives Culturally Responsive Practices 
+
+

@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      "fresh-themes",
+      "/opt/hackmyresume"
+    ]
+  ],
+  "_from": "fresh-themes@latest",
+  "_id": "fresh-themes@0.17.0-beta",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fresh-themes",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fresh-themes_0.17.0-beta_1518405934300_0.5194841340590641"
+  },
+  "_npmUser": {
+    "email": "hacksalot@fluentdesk.com",
+    "name": "hacksalot"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fresh-themes",
+    "raw": "fresh-themes",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fresh-themes/-/fresh-themes-0.17.0-beta.tgz",
+  "_shasum": "d698c6a9c48ee41909ada32bb337fe0f3ac02169",
+  "_shrinkwrap": null,
+  "_spec": "fresh-themes",
+  "_where": "/opt/hackmyresume",
+  "author": {
+    "email": "hacksalot@indevious.com",
+    "name": "hacksalot",
+    "url": "https://github.com/hacksalot"
+  },
+  "bugs": {
+    "url": "https://github.com/fresh-standard/fresh-themes/issues"
+  },
+  "contributors": [
+    {
+      "email": "hacksalot@indevious.com",
+      "name": "hacksalot",
+      "url": "https://github.com/hacksalot"
+    },
+    {
+      "name": "Brett Hardin",
+      "url": "https://github.com/bhardin"
+    },
+    {
+      "name": "hareekum",
+      "url": "https://github.com/hareekum"
+    },
+    {
+      "name": "Jonathon Lui",
+      "url": "https://jonathanlui.com"
+    },
+    {
+      "email": "evanplaice@gmail.com",
+      "name": "Evan Plaice",
+      "url": "https://github.com/evanplaice"
+    },
+    {
+      "name": "Jonathan Wolfe",
+      "url": "https://github.com/JonathanWolfe"
+    },
+    {
+      "name": "Ya Zhuang",
+      "url": "https://github.com/zhuangya"
+    }
+  ],
+  "dependencies": {},
+  "description": "Multiformat themes and templates for your résumé / CV.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 201,
+    "shasum": "d698c6a9c48ee41909ada32bb337fe0f3ac02169",
+    "tarball": "https://registry.npmjs.org/fresh-themes/-/fresh-themes-0.17.0-beta.tgz",
+    "unpackedSize": 4275057
+  },
+  "gitHead": "ceb990166942cc8d0f57119b7110451e29dde3a7",
+  "homepage": "https://github.com/fresh-standard/fresh-themes",
+  "keywords": [
+    "résumé",
+    "resume",
+    "CV",
+    "employment",
+    "portfolio",
+    "Handlebars",
+    "Underscore",
+    "Markdown",
+    "LaTeX",
+    "HTML",
+    "Word",
+    "Microsoft Word",
+    "PDF",
+    "Acrobat",
+    "Adobe",
+    "JSON",
+    "YAML"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "hacksalot@fluentdesk.com",
+      "name": "hacksalot"
+    }
+  ],
+  "name": "fresh-themes",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fresh-standard/fresh-themes.git"
+  },
+  "scripts": {},
+  "version": "0.17.0-beta"
+}
